@@ -14,7 +14,7 @@ The repository primarily uses the following languages:
 You can clone the repository by running the following command in your terminal:
 
 ```bash
-$ git clone https://github.com/{username}/askmybook.git
+$ git clone https://github.com/anuragts/askmybook.git
 ```
 
 ## Installation
@@ -34,6 +34,10 @@ $ npm install
 Thank you for considering contributing to AskMyBook project. You can contribute to the project by following the steps below:
 
 1. Fork this repository.
+ -On the top right section of this page click on "Fork" button.
+ -Make sure to check on "Copy the main branch only" as it will allow you to make changes by creating a branch.
+ -Press "Create Fork" this will create a copy of the project's repository.
+ -Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 2. Clone the forked repository.
 
@@ -55,9 +59,11 @@ $ git checkout -b new-feature
 
 5. Make the desired changes.
 
-6. Commit the changes.
+6. Add and Commit the changes.
 
 ```bash
+$ git add .
+
 $ git commit -m "your commit message"
 ```
 

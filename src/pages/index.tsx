@@ -48,10 +48,10 @@ export default function Home() {
         />
       </Head>
       <main className="flex justify-center h-screen">
-        <div className="flex-1 h-full bg-gray-100 p-4">
+        <div className="flex-1 h-full bg-oragne-100 p-4">
           <form onSubmit={handleSubmit} className="ml-[2rem] mt-[2rem]">
             <h1 className="text-5xl text-gray-800 font-bold mb-4 ">
-              <span className="transform rotate-[-20deg] inline-block pr-2 text-blue-500  ">
+              <span className="transform rotate-[-20deg] inline-block pr-2 text-orange-500  ">
                 Ask
               </span>{" "}
               My Book
@@ -59,7 +59,7 @@ export default function Home() {
             <p className="text-gray-600 text-2xl ml-5 mt-[3rem] mb-[5rem] font-semibold ">
               {" "}
               Ask any question to your{" "}
-              <span className="text-blue-500">favorite books</span> .
+              <span className="text-orange-500">favorite books</span> .
             </p>
             <label
               className="block text-gray-800 text-2xl mt-10  font-bold mb-2"
@@ -68,7 +68,7 @@ export default function Home() {
               Book Name
             </label>
             <input
-              className="block w-full p-3 text-2xl rounded bg-white text-gray-700 border  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="block w-full p-3 text-2xl rounded bg-white text-gray-700 border  focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               id="book"
               type="text"
               placeholder="eg. The Psychology of Money"
@@ -83,7 +83,7 @@ export default function Home() {
               Question
             </label>
             <input
-              className="block w-full p-3 text-2xl rounded bg-white text-gray-700 border  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="block w-full p-3 text-2xl rounded bg-white text-gray-700 border  focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               id="question"
               type="text"
               placeholder="eg. What is luck & risk ?"
@@ -94,13 +94,13 @@ export default function Home() {
             <br />
             <button
               type="submit"
-              className="w-full mt-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="w-full mt-6 bg-orange-500 hover:bg-orange-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               {loading ? "Generating..." : "Generate"}
             </button> 
             <div className="text-xl mt-[2rem]">
                 Made by{" "}
-                <span className="text-blue-500">
+                <span className="text-orange-500">
                   <Link href="https://twitter.com/theanuragdev">
                     @theanuragdev
                   </Link>
